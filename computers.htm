@@ -1,0 +1,125 @@
+<html>
+<head>
+<!--
+    Web Assignment
+
+    MegaShop E-Commerce
+    Author: Shin Han
+    Date: 22/8/2020
+
+    Filename: assg.htm
+    Supporting files:
+-->    
+
+    <title>MegaShop Website</title>
+    <link href="wassg.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="slideshow.js"></script>
+</head> 
+
+<body>
+<div id="pageContent">
+    <div id="heading">
+        <img src="Mega Shop.jpg" alt="Megashop" />
+    </div>
+
+    <div id="cart">
+        <a href="cart.htm"><img src="shoppingCart.jpg" alt="" width="25" height="25">
+        Shopping Cart</a>
+      </div>
+
+    <div id="productName">
+        <h1>COMPUTERS</h1>
+    </div>
+    
+      <div id="searchBar">
+        <input type="text" placeholder="Search product..." name="search">
+        <button type="submit">Search</button>
+      </div>
+
+    <div id="links">
+      <ul>
+        <li id="categories">
+          <table>
+            <tr>
+              <th>Categories</th>
+            </tr>
+            <tr>
+              <td><a href="shoes.htm">Shoes</a></td>
+            </tr>
+            <tr>
+              <td><a href="mobiles.htm">Mobiles</a></td>
+            </tr>
+            <tr>
+              <td><a href="cameras.htm">Cameras</a></td>
+            </tr>
+            <tr>
+              <td><a href="computers.htm">Computers</a></td>
+            </tr>
+            <tr>
+              <td class="item"><a href="asus.htm" target="content">Asus</a></td>
+            </tr>
+            <tr>
+              <td class="item"><a href="acer.htm" target="content">Acer</a></td>
+            </tr>
+            <tr>
+              <td class="item"><a href="dell.htm" target="content">Dell</a></td>
+            </tr>
+            <tr>
+              <td class="item"><a href="hp.htm" target="content">HP</a></td>
+            </tr>
+            <tr>
+              <td><a href="homeAE.htm">Home Appliances and Electronics</a></td>
+            </tr>
+          </table>
+        </li>
+      </ul>
+    </div>
+
+    <div class="main">
+
+      <div class="slideshow slide">
+        <div class="slideNum">1 / 4</div>
+        <img src="4530.jpg" alt="Asus" style="width:700px; height: 350">
+      </div>
+    
+      <div class="slideshow">
+        <div class="slideNum">2 / 4</div>
+        <img src="044WynyFQyUujfxbYBQ4bEb-38.1579798920.fit_scale.size_1182x667.jpg" alt="HP" style="width:700px; height: 350">
+      </div>
+    
+      <div class="slideshow">
+        <div class="slideNum">3 / 4</div>
+        <img src="NITRO_5_AN515-54_hero_small.jpg" alt="Acer" style="width:700px; height: 350">
+      </div>
+    
+      <div class="slideshow">
+        <div class="slideNum">4 / 4</div>
+        <img src="xps-blog-image-1-v2.jpg" alt="Dell" style="width:700px; height: 350">
+      </div>
+    
+      <a class="prev" onclick="nextSlides(-1)">&#10094;</a>
+      <a class="next" onclick="nextSlides(1)">&#10095;</a>
+    </div>
+
+    <div id="links">
+      <ul>
+        <li><a href="index.htm">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#footerBox">About Us</a></li>
+        <li><a href="#footerBox">Contact Us</a></li><br>
+      </ul>
+    </div>
+
+    <div id="contentBox">
+      <iframe src="asus.htm" name="content" width="850" height="600" marginwidth="0" marginheight="0" scrolling="no">
+    </iframe>
+    </div>
+
+    <div id="footerBox">
+      <iframe src="footer.htm" name="footer" marginwidth="0" marginheight="0" scrolling="no" width="850" height="300">
+      </iframe>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<html>
+<head>
+<!--
+  Web Design And Development Assignment
+
+  MegaShop Footer  
+  Author : Lim Yen Qi
+  Date   : 21/08/2020
+
+  Filename        : footer.htm
+  Supporting files:
+-->
+  <link href="pageFooter.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="footeremail.js"></script>
+</head>
+
+<body>
+  <div id="emailSignUp" onload="document.form1.emailv.focus()">
+    <p></p>
+    <form name="form1" action="#">
+      <label for="emailv">Sign up your email now : </label>
+      <input type="email" name="emailv" id="emailv" style="width: 420;">
+      <input type="submit" value="Sign Up" onclick="emailValidation(document.form1.emailv)">
+    </form>
+  </div>
+  <div id="leftFoot">
+    <h3>Contact Us</h3>
+    <table>
+      <tr>
+        <th>Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</th>
+        <td>Kampus Utama, <br>Jalan Genting Kelang, <br>53300 Kuala Lumpur, <br>Wilayah Persekutuan Kuala Lumpur</td>
+      </tr>
+      <tr>
+        <th>Phone num. :</th>
+        <td>+6012 - 3456789</td>
+      </tr>
+      <tr>
+        <th>Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</th>
+        <td>abc123@gmail.com</td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="middleFoot">
+    <h3>About Us</h3>
+    <p>Founded in 2020 <br>
+      Our group consists of three <br>members which are <br>Lim Yen Qi, Yap Shin Han <br>and Shawn Yap Han Sheng.<br>
+      We work together and try <br>our best to make a good website<br>
+    </p>
+  </div>
+
+  <div id="rightFoot">
+    <h3>Help</h3>
+    <ul>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Shipping</a></li>
+      <li><a href="#">Cancellation</a></li>
+      <li><a href="#">Questions?</a></li>
+    </ul>
+  </div>
+</body>
+</html>

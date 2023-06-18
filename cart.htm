@@ -1,0 +1,121 @@
+<html>
+<head>
+<!--
+  Web Design And Development Assignment
+
+  MegaShop Shopping Cart
+  Author : Lim Yen Qi
+  Date   : 21/08/2020
+
+  Filename        : cart.htm
+  Supporting files:
+-->
+  <title>Megashop Shopping Cart</title>
+  <link href="home.css" rel="stylesheet" type="text/css">
+  <link href="cartp.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="pageContent">
+
+    <div id="heading">
+      <img src="Mega Shop.jpg" alt="Mega Shop" width="260" height="100">
+      <div id="cart">
+        <img src="shoppingCart.jpg" alt="Shopping Cart" width="30" height="30" usemap="#cartIcon">
+        <map name="cartIcon" id="cartIcon">
+          <area shape="rect" coords="0, 0, 225, 225" href="cart.htm" alt="Shopping Cart">
+        </map>
+        <a href="cart.htm">Shopping Cart</a>
+      </div>
+      <h1>Shopping Cart</h1>
+      <div id="searchBar">
+        <form action="#">
+          <input type="text" placeholder="Search product..." name="search">
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    
+    <div id="links">
+     <ul>
+       <li id="categories">
+         <table>
+           <tr>
+             <th>Categories</th>
+           </tr>
+           <tr>
+             <td><a href="mobiles.htm">Mobiles</a></td>
+           </tr>
+           <tr>
+             <td><a href="cameras.htm">Cameras</a></td>
+           </tr>
+           <tr>
+             <td><a href="computers.htm">Computers</a></td>
+           </tr>
+            <tr>
+             <td><a href="homeAE.htm">Home Appliances and Electronics</a></td>
+           </tr>
+           <tr>
+             <td><a href="shoes.htm">Shoes</a></td>
+           </tr>
+         </table>
+       </li>
+       <li><a href="index.htm">Home</a></li>
+       <li><a href="#">Blog</a></li>
+        <li><a href="#">FAQ</a></li>
+       <li><a href="#footerBox">About Us</a></li>
+       <li><a href="#footerBox">Contact Us</a></li>
+     </ul>
+   </div>
+   
+   <div id="leftPage">
+    <p id="hotSales">Hot Sales</p>  
+    <table id="hotProduct">
+      <tr>
+        <td><img src="Xiaomi Mi Action Camera.jpg" alt="Xiaomi Mi Action Camera (509)"></td>
+         <td><span>Xiaomi Mi Action Camera<br> RM 509</span></td>
+      </tr>
+      <tr>
+        <td><img src="Dell Inspiron 15 5000.png" alt="Dell Inspiron 15 5000"></td>
+        <td><span>Dell Inspiron 15 5000<br>RM 2199</span></td>
+      </tr>
+      <tr>
+        <td><img src="Huawei Mate 20 Pro.jpg" alt="Huawei Mate 20 Pro"></td>
+        <td><span>Huawei Mate 20 Pro<br>RM 2999</span></td>
+      </tr>
+      <tr>
+       <td><img src="ShoesNike SuperRep.jpg" alt="Nike SuperRep"></td>
+       <td><span>Nike SuperRep<br>RM 390</span></td>
+     </tr>
+     <tr>
+       <td><img src="Adidas Yeezy BOOST 350 V2 OREO.jpg" alt="Adidas Yeezy BOOST 350 V2 OREO"></td>
+       <td><span>Adidas Yeezy BOOST 350 V2 OREO<br>RM 899</span></td>
+     </tr>
+     <tr>
+       <td><img src="Toshiba Multi Door Fridge.jpg" alt="Toshiba Multi Door Fridge"></td>
+       <td><span>Toshiba Multi Door Fridge<br>RM 38399</span></td>
+     </tr>
+    </table>
+  </div>
+
+  <div id="contentBox">
+    <iframe src="cartContent.htm" name="content" width="800" height="780" marginwidth="0" marginheight="0" scrolling="no">
+     </iframe>
+  </div>
+  <div class="checkOut">
+    <table>
+      <tr>
+        <td><a href="checkoutpage.htm">Proceed to checkout page &#8594;</a></td>
+      </tr>
+    </table>
+  </div>
+
+   <div id="footerBox">
+     <iframe src="footer.htm" name="footer" marginwidth="0" marginheight="0" scrolling="no" width="900" height="300">
+     </iframe>
+   </div>
+
+  </div>
+</body>
+
+</html>

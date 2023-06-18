@@ -1,0 +1,17 @@
+/*
+  Web Design And Development Assignment
+
+  MegaShop Shopping Cart Style Sheet
+  Author : Lim Yen Qi
+  Date   : 21/08/2020
+
+  Filename: cContent.css
+*/
+
+.checkOut               {padding-left: 740px; padding-top: 250; position: absolute;}
+.checkOut table         {border-collapse: collapse; font-size: 15px; text-align: center;}
+.checkOut table thead   {font-weight: bold; background: lightgray;}
+.checkOut table tbody   {background: whitesmoke;}
+.checkOut table tr td   {border: 2px solid darkgray; width: 90; width: 240; height: 30;}
+.checkOut tr td a       {text-decoration: none; color: black;}
+.checkOut tr td a:hover {color: rgb(0, 204, 255);}

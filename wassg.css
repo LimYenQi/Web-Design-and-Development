@@ -1,0 +1,70 @@
+/*
+    Web Assignment
+
+    MegaShop E-Commerce
+    Author: Shin Han
+    Date: 22/8/2020
+
+    Filename: assg.htm
+    Supporting files:
+*/
+
+body           {margin:0px }
+#heading       {position: absolute; top: 0px; left: 0px}
+#heading img   {width: 260; height: 100}
+#pageContent   {position: absolute; top: 10px; left: 100px ;right: 100px; margin: 0; width: 1000px;}
+#productName   {position: absolute; top: 10px;}
+#links         {position: absolute; top: 120px; left: 5px}
+#links ul      {list-style-type: none; padding: 0px; margin: 10px 0px 0px 20px}
+#links li      {display: inline; float: left; font-size: 15px; margin-right: 10px; background:orange; padding: 5px;
+                border: 2px solid black}
+#links li a    {color:black; text-decoration: none; padding: 5px;}
+#links a:hover {color: white}
+h1             {font-style: italic; font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 25px;margin-top: 70px;
+               color: rgb(235, 156, 52)}
+
+#p1shopProduct           {padding-bottom: 20px}
+#p2shopProduct           {padding-bottom: 20px}
+#p3shopProduct           {padding-bottom: 20px}
+#p4shopProduct           {padding-bottom: 20px}
+
+table          {border-collapse: collapse; border: 1px solid black}
+table img      {width: 240; height: 180; border: 1px solid black}
+
+.add           {background-color: black; color: white; padding: 5px}
+
+#column1         {width: 50%; float: left; padding-top: 20px;}
+#column2         {width: 50%; float: left; padding-top: 20px;}
+#column1 a       {color:black; text-decoration: none}
+#column1 a:hover {color: red}
+
+#contentBox        {position: relative; top: 10px; left: 280px; clear: both;}
+#contentBox iframe {border: none;}
+
+#footerBox        {position: relative; top: 10px; left: 50px;}
+#footerBox iframe {border: none;}
+
+#searchBar    {padding-left: 730; white-space: nowrap; margin-top: 110px;}
+
+#cart         {position: absolute; left: 800; white-space: nowrap; top: 70;}
+#cart a       {font-size: 16px; clear: both; display: inline-block; text-decoration: none; color: black;}
+#cart a:hover {color: rgb(0, 204, 255);}
+
+#links ul #categories        {padding: 0px; border: 0px; margin-top: 50px;}
+#categories table            {border-collapse: collapse;}
+#categories table tr th      {color: white; background: black; height: 30px; border: 2px solid black;}
+#categories table tr td      {background: grey; font-size: 14px; padding: 5px; border: 2px solid black;}
+#categories table td.item    {background-color: white; text-align: center;}
+#categories table td.item a  {color: black;}
+#categories table td a       {color: white;}
+#categories table td a:hover {color: rgb(0, 204, 255);}
+#categories img              {width: 600; height: 350;}
+
+.main          {position: relative; margin-left: 260px; margin-top: 50px;}
+.slideshow     {display: none;}
+.slide         {display: block;}
+.prev,.next    {cursor: pointer; position: absolute; top: 50%; width: auto;  padding: 16px;
+                color: white; font-weight: bold;font-size: 20px}
+.next          {right: 40;}
+.slideNum      {color: orange; font-size: 15px;padding: 8px 12px;position: absolute; top: 0;}
+.slideshow img {width: 700; height: 350;}
